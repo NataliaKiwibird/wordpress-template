@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    color: #333;
+}
+h4{
+    text-align: center;
+    color: #333;
+}
+header{
+    background-color: lightcoral;
+    width: 100%;
+    height: 3.5em;
+    /* margin-bottom: 3rem 0; */
+}
+header .container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+header .my-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+header .my-menu li a {
+    color: white;
+    padding: 1em;
+    margin-top: .5em;
+}
+.page-wrap{
+    padding: 3rem 0;
+}
+.card-body a{
+    color: white;
+    background-color: lightcoral;
+    padding: .5em;
+    border-radius: 5px;
+}
+.card-body a:hover{
+    background-color: indianred;
+    text-decoration: none;
+}
+.search-form {
+    width: 100%;
+    margin: 1em auto;
+}
+.search-form-btn {
+    background-color: lightcoral;
+    color: white;
+}
