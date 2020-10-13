@@ -14,7 +14,7 @@
             <div class="col-md-3 text-primary">
 
             <?php if(has_post_thumbnail()):?>
-            <img src="<?php the_post_thumbnail_url('about');?>" alt="<?php the_title();?>" class="img-fluid about-img">
+            <img src="<?php the_post_thumbnail_url('about');?>" alt="<?php the_title();?>" class="img-fluid mb-3 img-thumbnail mr-4 about-img">
             <?php endif;?>
             
             </div>

@@ -11,6 +11,10 @@ function load_css()
     wp_register_style( 'main', get_template_directory_uri() . '/css/main.css', 
     array(), false, 'all' );
     wp_enqueue_style('main');
+
+    wp_register_style( 'main2', get_template_directory_uri() . '/css/main2.css', 
+    array(), false, 'all' );
+    wp_enqueue_style('main2');
     
 }
 add_action('wp_enqueue_scripts','load_css');
@@ -53,7 +57,6 @@ register_nav_menus(
 add_image_size('blog-main', 1400, 500, true);
 add_image_size('blog-large', 1000, 300, true);
 add_image_size('blog-small', 300, 200, true);
-add_image_size('gallery', 300, 300, true);
 add_image_size('about', 300, 600, true);
 
 // Register sidebars
