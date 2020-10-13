@@ -6,7 +6,7 @@
 
 </form>  -->
 
-    <form method="get" id="searchform" action="<?php bloginfo( 'url' ); ?>/">
+    <form method="get" id="searchform" action="<?php bloginfo( 'url' ); ?>/" class="search-form">
     <div>
         <label for="search">Search for:</label>
         <input type="text" value="<?php the_search_query(); ?>" name="s" id="search" />

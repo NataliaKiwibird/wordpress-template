@@ -33,6 +33,47 @@ header .my-menu li a {
 /* About */
 
 /* Services */
+.services{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.services-content{
+    margin-bottom: 2.5em;
+    width: 40%;
+}
+.services-list{
+    width: 60%;
+}
+.services li {
+    list-style: none;
+    margin: 0 1em;
+}
+.services-list-item{
+    font-size: 1.3em;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    margin: 0 5px;
+}
+.services-item-name{
+    text-transform: uppercase;
+    order: 1;
+}
+.services-list-item::after{
+    content: "";
+    border-top: 2px dotted;
+    flex-grow: 1;
+    order: 2;
+}
+.services-item-price{
+    order: 3;
+}
 
 /* Gallery */
 .gallery{
@@ -75,6 +116,19 @@ header .my-menu li a {
 }
 
 /* News */
+.archive-header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 0;
+    width: 100%;
+}
+.archive-h1{
+    text-align: unset;
+    margin: unset;
+    font-size: 3.5em;
+    color: #333;
+}
 .card-body a{
     color: white;
     background-color: lightcoral;
@@ -84,4 +138,12 @@ header .my-menu li a {
 .card-body a:hover{
     background-color: green;
     text-decoration: none;
+}
+.search-form-btn{
+    color: white;
+    font-size: .8em;
+    background-color: lightcoral;
+    padding: .5em .75em;
+    border: 0px;
+    border-radius: 5px;
 }

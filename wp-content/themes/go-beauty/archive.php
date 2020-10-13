@@ -10,8 +10,10 @@
             <?php endif;?>
         </div> -->
 
-            <div class="container d-flex align-items-end justify-content-between">
-            <h1><?php echo single_cat_title();?></h1>
+            <div class="archive-header">
+
+            <h1 class="archive-h1"><?php echo single_cat_title();?></h1>
+
              <!-- SEARCH: -->
              <?php get_search_form();?>
             </div>
